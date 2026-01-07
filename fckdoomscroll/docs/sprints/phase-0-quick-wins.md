@@ -261,7 +261,7 @@ interface HeaderProps {
 }
 
 export function Header({ isAuthenticated = false, userName }: HeaderProps) {
-  return (
+  return (a
     <header className="border-b border-purple-500/20 backdrop-blur-sm bg-slate-900/50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
