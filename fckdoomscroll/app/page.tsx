@@ -1,7 +1,10 @@
+import CardGrid from "./components/CardGrid";
+
 export default function Home() {
   return (
-    <div>
-      <p>Homepage</p>
-    </div>
+      <div>
+          <p></p>
+          <CardGrid />
+      </div>
   );
 }
